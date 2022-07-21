@@ -6,23 +6,23 @@
 @layer base {
 
   h1 {
-    @apply font-[Poppins] font-bold text-[#43311F]
-    text-[28px] lg:text-[70px]
+    @apply font-[Poppins] font-bold text-[#43311F] text-center
+    text-[28px] lg:text-[70px] ;
   }
 
   h2 {
-    @apply font-[Poppins] font-bold
-    text-[24px] lg:text-[40px]
+    @apply font-[Poppins] font-bold text-center
+    text-[24px] lg:text-[40px] ;
   }
 
   h3 {
     @apply font-[Poppins] font-bold text-[#1B1713]
-    text-[22px] lg:text-[24px]
+    text-[22px] lg:text-[24px] ;
   }
 
   h4 {
     @apply font-[Poppins] font-semibold
-    text-[18px] lg:text-[25px]
+    text-[18px] lg:text-[25px] ;
   }
 }
 
