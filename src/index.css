@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+  h1 {
+    @apply text-[28px]  font-[Poppins] font-bold tracking-[1px] leading-[42px] text-center text-[#0668B8]
+           sm:text-[44px] md:text-[56px]  sm:leading-[60px] ;
+  }
+  
+}
+
+@layer components {
+
+
+
+}
+
+
+@layer utilities {
+
+  .parrafobase {
+      @apply text-[25px]
+  }
+
+}
