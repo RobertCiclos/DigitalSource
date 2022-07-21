@@ -6,10 +6,24 @@
 @layer base {
 
   h1 {
-    @apply text-[28px]  font-[Poppins] font-bold tracking-[1px] leading-[42px] text-center text-[#0668B8]
-           sm:text-[44px] md:text-[56px]  sm:leading-[60px] ;
+    @apply font-[Poppins] font-bold text-[#43311F] text-center
+    text-[28px] lg:text-[70px] ;
   }
-  
+
+  h2 {
+    @apply font-[Poppins] font-bold text-center
+    text-[24px] lg:text-[40px] ;
+  }
+
+  h3 {
+    @apply font-[Poppins] font-bold text-[#1B1713]
+    text-[22px] lg:text-[24px] ;
+  }
+
+  h4 {
+    @apply font-[Poppins] font-semibold
+    text-[18px] lg:text-[25px] ;
+  }
 }
 
 @layer components {
