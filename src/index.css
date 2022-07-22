@@ -6,7 +6,7 @@
 @layer base {
 
   h1 {
-    @apply font-[Poppins] font-bold text-[#43311F] text-center
+    @apply font-[Poppins] font-bold text-marronC text-center
     text-[28px] lg:text-[70px] ;
   }
 
@@ -16,7 +16,7 @@
   }
 
   h3 {
-    @apply font-[Poppins] font-bold text-[#1B1713]
+    @apply font-[Poppins] font-bold text-marronC
     text-[22px] lg:text-[24px] ;
   }
 
