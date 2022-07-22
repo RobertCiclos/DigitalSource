@@ -4,7 +4,6 @@ import Question2 from '../components/svg/question/Question2'
 import Question3 from '../components/svg/question/Question3'
 import Question4 from '../components/svg/question/Question4'
 
-
 const Home = () => {
   return (
     <div 
