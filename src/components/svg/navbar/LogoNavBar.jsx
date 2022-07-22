@@ -1,6 +1,6 @@
 import * as React from "react"
 
-const SvgComponent = (props) => (
+const LogoNavBar = (props) => (
   <svg
     width={260}
     height={36}
@@ -38,4 +38,4 @@ const SvgComponent = (props) => (
   </svg>
 )
 
-export default SvgComponent
+export default LogoNavBar
