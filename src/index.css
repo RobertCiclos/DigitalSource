@@ -6,8 +6,10 @@
 @layer base {
 
   h1 {
-    @apply font-[Poppins] font-bold text-marronC text-center
-    text-[28px] lg:text-[70px] ;
+    @apply font-[Poppins] font-bold text-marronC text-center mx-auto
+    text-[28px] w-[257.51px]
+    md:text-[45px] md:w-[450px]
+    lg:text-[70px] lg:w-[930px];
   }
 
   h2 {

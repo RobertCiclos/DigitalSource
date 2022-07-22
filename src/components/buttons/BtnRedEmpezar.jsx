@@ -6,7 +6,7 @@ const BtnRedEmpezar = (props) => {
       className='flex items-center justify-center mx-auto bg-rojoC
       font-[Poppins] font-bold text-[white]
       w-[189px] h-[48px] text-[14px] rounded-[7px]
-      sm:w-[340px] sm:h-[75px] sm:text-[20px] sm:rounded-[10px]'>
+      lg:w-[340px] lg:h-[75px] lg:text-[20px] lg:rounded-[10px]'>
       Empezar
     </button>
   )
