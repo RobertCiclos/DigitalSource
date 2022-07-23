@@ -30,6 +30,10 @@
 
 @layer components {
 
+  .parrafo {
+    @apply w-[313px] font-[Lato] font-normal text-[16px] pl-[4px]
+    lg:w-[555px] lg:text-[18px] lg:pl-0
+}
 
 
 }
