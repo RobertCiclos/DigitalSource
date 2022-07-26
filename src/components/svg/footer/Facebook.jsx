@@ -2,8 +2,8 @@ import * as React from "react"
 
 const Facebook = (props) => (
   <svg
-    width={53}
-    height={53}
+    width={54}
+    height={54}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
