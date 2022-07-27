@@ -20,4 +20,4 @@ const Nuevas = (props) => (
   </svg>
 )
 
-export default SNuevas
+export default Nuevas

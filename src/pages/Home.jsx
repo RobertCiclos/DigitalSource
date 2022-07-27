@@ -4,6 +4,8 @@ import Question2 from '../components/svg/question/Question2'
 import Question3 from '../components/svg/question/Question3'
 import Question4 from '../components/svg/question/Question4'
 import BtnRedEmpezar from '../components/buttons/BtnRedEmpezar'
+import Productos from '../components/svg/why/Productos'
+import Why from '../components/Card/Why'
 const Home = () => {
   return (
   <div 
@@ -33,6 +35,28 @@ const Home = () => {
           </div>
         </div>
     </section>
+
+    <section>
+      <div 
+        className='w-[414px] h-[527px] mx-auto mb-[30px]
+        lgaux:w-[1106px] lg:h-[373px] lg:mb-[147px]'>
+        <h2 
+          className='h2 text-[#1B1713] mt-[24px]
+          lg:mt-[46px]'>
+          ¿Por qué Mangiare?
+        </h2>
+        <div 
+          className='grid grid-cols-2 gap-[24px] px-[25px] 
+          lg:grid-cols-[245px_245px_245px_245px] lg:gap-[42px]'>
+          <Why item={1} texto="Productos Frescos" subtitulo="Productos 100% frescos"/>
+          <Why item={2} texto="Preparación fácil" subtitulo="Recetas fáciles de preparar"/>
+          <Why item={3} texto="Nuevas recetas" subtitulo="Recetas nuevas cada semana"/>
+          <Why item={4} texto="Ahorra tiempo" subtitulo="Reduce el tiempo de cocinar "/>
+          
+        </div>
+      </div>
+    </section>
+        
     <section 
       className='w-full h-[730px] flex items-center mx-auto bg-naranjaB 
       aux:h-[645px]'>
@@ -101,7 +125,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+    
+    
     </section>
+
   </div>
   )
 }
