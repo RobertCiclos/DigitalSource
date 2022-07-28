@@ -129,6 +129,39 @@ const Home = () => {
     
     </section>
 
+    <section>
+      <div 
+        className="w-[1440px] h-[330px] mx-auto">
+        <div 
+          className='grid grid-cols-3'>
+          <div 
+            className='w-[310px] h-[330px]'> 
+            <img src="/imagenes/suscripcion/decoracion.png"/>
+          </div>
+          <div 
+            className='w-[820px]  ml-[-155px]'>
+            <h4 className='h4 pt-[75px] '>
+            Suscripción al catálogo semanal
+            </h4>
+            <div className=''>
+              <div>
+              <p 
+                className='text-[18px] font-[Lato] text-[#1B1713] pt-[52px]'>
+                Suscríbete y recibirás cada semana...
+              </p>
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
+          <div
+            className='w-[310px] h-[330px] mx-[200px]'> 
+            <img src="/imagenes/suscripcion/decoracionb.png"/>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
   )
 }
