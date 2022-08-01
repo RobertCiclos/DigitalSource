@@ -1,11 +1,12 @@
-import React from 'react'
-import Question1 from '../components/svg/question/Question1'
-import Question2 from '../components/svg/question/Question2'
-import Question3 from '../components/svg/question/Question3'
-import Question4 from '../components/svg/question/Question4'
-import BtnRedEmpezar from '../components/buttons/BtnRedEmpezar'
-import Productos from '../components/svg/why/Productos'
-import Why from '../components/Card/Why'
+import React from 'react';
+import Question1 from '../components/svg/question/Question1';
+import Question2 from '../components/svg/question/Question2';
+import Question3 from '../components/svg/question/Question3';
+import Question4 from '../components/svg/question/Question4';
+import BtnRedEmpezar from '../components/buttons/BtnRedEmpezar';
+import CardRecetas from '../components/cards/CardRecetas';
+import BtnRedMenu from '../components/buttons/BtnRedMenu'
+
 const Home = () => {
   return (
   <div 
@@ -31,32 +32,31 @@ const Home = () => {
             className="absolute top-[159px] right-[112.5px]
             md:top-[245px] md:right-[289.5px]
             lg:top-[387px] lg:right-[550px]">
-            <BtnRedEmpezar />
+            <BtnRedEmpezar/>
           </div>
         </div>
     </section>
-
     <section>
-      <div 
-        className='w-[414px] h-[527px] mx-auto mb-[30px]
-        lgaux:w-[1106px] lg:h-[373px] lg:mb-[147px]'>
-        <h2 
-          className='h2 text-[#1B1713] mt-[24px]
-          lg:mt-[46px]'>
-          ¿Por qué Mangiare?
+	    <div 
+        className='mx-auto
+        w-[414px] pt-[38px] pb-[90px] px-[19px]
+        lg:w-[1440px] lg:pt-[49px] lg:pb-[30px] lg:px-[104px]'>
+        <h2
+          className='text-[##1B1713] mb-[30px] lg:mb-[72px]'>
+          Recetas de la semana
         </h2>
-        <div 
-          className='grid grid-cols-2 gap-[24px] px-[25px] 
-          lg:grid-cols-[245px_245px_245px_245px] lg:gap-[42px]'>
-          <Why item={1} texto="Productos Frescos" subtitulo="Productos 100% frescos"/>
-          <Why item={2} texto="Preparación fácil" subtitulo="Recetas fáciles de preparar"/>
-          <Why item={3} texto="Nuevas recetas" subtitulo="Recetas nuevas cada semana"/>
-          <Why item={4} texto="Ahorra tiempo" subtitulo="Reduce el tiempo de cocinar "/>
-          
+        <div
+          className="grid
+          grid-cols-2 gap-x-[32px] gap-y-[40px] pb-[34px] h-[490px]
+          lg:grid-cols-4 lg:gap-x-[45px]  lg:pb-[64px] lg:h-[454px]" >
+          <CardRecetas number="1" plato="./imagenes/recetas/ensalada1.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          <CardRecetas className="lg:mt-[181px]" number="2" plato="./imagenes/recetas/ensalada2.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          <CardRecetas number="3" plato="./imagenes/recetas/ensalada3.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          <CardRecetas number="4" plato="./imagenes/recetas/ensalada4.png" nombre="Ensalada de papines con pesto de cilantro"/>
         </div>
+        <BtnRedMenu className="insivible lg:visible"/>
       </div>
     </section>
-        
     <section 
       className='w-full h-[730px] flex items-center mx-auto bg-naranjaB 
       aux:h-[645px]'>
@@ -122,42 +122,6 @@ const Home = () => {
                 </p>  
               </div>
             </div>          
-          </div>
-        </div>
-      </div>
-    
-    
-    </section>
-
-    <section>
-      <div 
-        className="w-[1440px] h-[330px] mx-auto">
-        <div 
-          className='grid grid-cols-3'>
-          <div 
-            className='w-[310px] h-[330px]'> 
-            <img src="/imagenes/suscripcion/decoracion.png"/>
-          </div>
-          <div 
-            className='w-[820px]  ml-[-155px]'>
-            <h4 className='h4 pt-[75px] '>
-            Suscripción al catálogo semanal
-            </h4>
-            <div className=''>
-              <div>
-              <p 
-                className='text-[18px] font-[Lato] text-[#1B1713] pt-[52px]'>
-                Suscríbete y recibirás cada semana...
-              </p>
-              </div>
-              <div>
-
-              </div>
-            </div>
-          </div>
-          <div
-            className='w-[310px] h-[330px] mx-[200px]'> 
-            <img src="/imagenes/suscripcion/decoracionb.png"/>
           </div>
         </div>
       </div>
