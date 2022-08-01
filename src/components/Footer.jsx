@@ -3,6 +3,17 @@ import { useMediaQuery } from 'react-responsive'
 
 const Footer = () => {
   const isDesktop = useMediaQuery({query:'(min-width: 560px)'})
+
+  const stylemobile = {
+    width:'50px',
+    height:'50px'
+  }
+
+  const styledesk = {
+    width:'54px',
+    height:'54px'
+  }
+
   return (
     <section 
       className=''>
@@ -19,9 +30,15 @@ const Footer = () => {
           <div 
             className='grid grid-cols-3 gap-[20px]
             lg:gap-[32px]'>
-            <img src='../svg/Footer/SVG-Facebook.svg' alt='logo' />
-            <img src='../svg/Footer/SVG-Instagram.svg' alt='logo' />
-            <img src='../svg/Footer/SVG-Twitter.svg' alt='logo' />
+            <img
+              style={isDesktop ?  styledesk : stylemobile}
+              src='../svg/Footer/SVG-Facebook.svg' alt='logo' />
+            <img 
+              style={isDesktop ?  styledesk : stylemobile}
+              src='../svg/Footer/SVG-Instagram.svg' alt='logo' />
+            <img 
+              style={isDesktop ?  styledesk : stylemobile}
+              src='../svg/Footer/SVG-Twitter.svg' alt='logo' />
           </div>
         </div>
         
