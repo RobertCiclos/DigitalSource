@@ -8,7 +8,6 @@ const Home = () => {
   return (
   <div 
     className=''>
-    Home
     <section>
         <div 
           className='mx-auto relative
