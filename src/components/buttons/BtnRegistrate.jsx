@@ -6,7 +6,7 @@ const BtnRegistrate = (props) => {
       className='flex items-center justify-center rounded-[6px]
       font-[Poppins] font-bold 
       w-[143px] h-[44px] text-[11.52px] bg-marronC text-[white]
-      sm:w-[195px] sm:h-[46px] sm:text-[16px] sm:bg-[#DDFFB1] sm:text-[#1B1713]'>
+      lgaux:w-[195px] lgaux:h-[46px] lgaux:text-[16px] lgaux:bg-[#DDFFB1] lgaux:text-[#1B1713]'>
       Regístrate / Ingresa
     </button>
   )

@@ -35,6 +35,10 @@
     lg:w-[555px] lg:text-[18px] lg:pl-0
 }
 
+.boton {
+  @apply text-[16px] font-[Poppins] font-bold text-[#1B1713]
+
+}
 
 }
 
