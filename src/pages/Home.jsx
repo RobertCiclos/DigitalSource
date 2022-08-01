@@ -1,11 +1,9 @@
 import React from 'react'
-import Question1 from '../components/svg/question/Question1'
-import Question2 from '../components/svg/question/Question2'
-import Question3 from '../components/svg/question/Question3'
-import Question4 from '../components/svg/question/Question4'
 import BtnRedEmpezar from '../components/buttons/BtnRedEmpezar'
 import Productos from '../components/svg/why/Productos'
 import Why from '../components/Card/Why'
+import Question from '../components/Question/Question'
+import BtnBrownSuscribirme from '../components/buttons/BtnBrownSuscribirme'
 const Home = () => {
   return (
   <div 
@@ -48,10 +46,10 @@ const Home = () => {
         <div 
           className='grid grid-cols-2 gap-[24px] px-[25px] 
           lg:grid-cols-[245px_245px_245px_245px] lg:gap-[42px]'>
-          <Why item={1} texto="Productos Frescos" subtitulo="Productos 100% frescos"/>
-          <Why item={2} texto="Preparación fácil" subtitulo="Recetas fáciles de preparar"/>
-          <Why item={3} texto="Nuevas recetas" subtitulo="Recetas nuevas cada semana"/>
-          <Why item={4} texto="Ahorra tiempo" subtitulo="Reduce el tiempo de cocinar "/>
+          <Why imagen="./svg/Why/Svg-Productos.svg"    texto="Productos Frescos" subtitulo="Productos 100% frescos"/>
+          <Why imagen="./svg/Why/Svg-Preparacion.svg"  texto="Preparación fácil" subtitulo="Recetas fáciles de preparar"/>
+          <Why imagen="./svg/Why/Svg-Nuevas.svg"       texto="Nuevas recetas" subtitulo="Recetas nuevas cada semana"/>
+          <Why imagen="./svg/Why/Svg-Ahorra.svg"       texto="Ahorra tiempo" subtitulo="Reduce el tiempo de cocinar "/>
           
         </div>
       </div>
@@ -88,7 +86,7 @@ const Home = () => {
               <div 
                 className='flex items-center gap-[11px]
                 aux:gap-[21px] aux:'>
-                <Question1/>
+                <Question imagen="/svg/Question/SVG-1Question.svg"/>
                 <p 
                   className='parrafo'>
                   Los envíos se entregan los días domingos por parte de nuestro personal.
@@ -97,7 +95,7 @@ const Home = () => {
               <div 
                 className='flex items-center gap-[11px]
                 aux:gap-[21px]'>
-                <Question2/>
+                <Question imagen="/svg/Question/SVG-2Question.svg"/>
                 <p 
                   className='parrafo'>
                   Los ingredientes se entregarán pre-cortados según la cantidad de porciones escogidas.
@@ -106,7 +104,7 @@ const Home = () => {
               <div 
                 className='flex items-center gap-[11px]
                 aux:gap-[21px]'>
-                <Question3/>
+                <Question imagen="/svg/Question/SVG-3Question.svg"/>
                 <p 
                   className='parrafo'>
                   Todos los ingredientes enviados estarán 100% frescos.
@@ -115,7 +113,7 @@ const Home = () => {
               <div 
                 className='flex items-center gap-[11px]
                 aux:gap-[21px]'>
-                <Question4/>
+                <Question imagen="/svg/Question/SVG-4Question.svg"/>
                 <p 
                   className='parrafo'>
                   Los envíos se entregan los días domingos por parte de nuestro personal.
@@ -131,35 +129,48 @@ const Home = () => {
 
     <section>
       <div 
-        className="w-[1440px] h-[330px] mx-auto">
-        <div 
-          className='grid grid-cols-3'>
+        className="mx-auto shadow-md w-[414px] h-[153px] flex
+        lg:w-[1460px] lg:h-[330px]">
+          
+          <img 
+            src="./imagenes/suscripcion/decoracion.png"
+            className='w-[86px] h-[88px]
+            lg:w-[310px] lg:h-[330px]'/>
           <div 
-            className='w-[310px] h-[330px]'> 
-            <img src="/imagenes/suscripcion/decoracion.png"/>
-          </div>
-          <div 
-            className='w-[820px]  ml-[-155px]'>
-            <h4 className='h4 pt-[75px] '>
-            Suscripción al catálogo semanal
-            </h4>
-            <div className=''>
-              <div>
+            className='grid grid-cols-1
+            lg:grid-cols-2'>
+            <div 
+              className='w-[368px] h-[45px] mt-[20px] 
+              lg:w-[518px] lg:h-[106px] lg:mt-[75px] lg:text-left '>
+              <h4 
+                className='h4'>
+                Suscripción al catálogo semanal
+              </h4>
               <p 
-                className='text-[18px] font-[Lato] text-[#1B1713] pt-[52px]'>
+                className='text-[14px] font-[Lato] text-[#1B1713] pt-[4px]
+                lg:text-[18px] lg:pt-[52px]'>
                 Suscríbete y recibirás cada semana...
               </p>
-              </div>
-              <div>
-
+            </div>
+            <div 
+              className='w-[420px] h-[42px] grid grid-cols-2 px-[30px]
+              lg:mt-[152px]'>
+              <input 
+                className='w-[146px] h-[40px] ml-[-20px] bg-gray-50 border border-gray-300  rounded-lg px-4 py-2
+                lg:w-[289px] lg:h-[40px] lg:ml-[-60px]' 
+                placeholder='Escribe tu correo electronico'>
+              </input>
+              <div 
+                className='ml-[-70px] pl-[0px]
+                lg:pl-[40px] lg:ml-[0px]'>
+                <BtnBrownSuscribirme/>
               </div>
             </div>
           </div>
-          <div
-            className='w-[310px] h-[330px] mx-[200px]'> 
-            <img src="/imagenes/suscripcion/decoracionb.png"/>
-          </div>
-        </div>
+            <img 
+              src="./imagenes/suscripcion/decoracionb.png"
+              className='w-[86px] h-[93px] mt-[44px]
+              lg:w-[310px] lg:h-[330px] lg:mt-[0px]'/>
       </div>
     </section>
   </div>
