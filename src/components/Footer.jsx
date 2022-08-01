@@ -21,7 +21,8 @@ const Footer = () => {
         <div 
           className='mt-[32px] mb-[40px]
           lg:mt-[80px] lg:mb-[56px]'>
-          <img className='mx-auto' src={isDesktop ? '../svg/Footer/SVG-G_LogoFooter.svg' : '../svg/Footer/SVG-M_LogoFooter.svg'} alt='logo' />
+          <img 
+            className='mx-auto' src={isDesktop ? '../svg/Footer/SVG-G_LogoFooter.svg' : '../svg/Footer/SVG-M_LogoFooter.svg'} alt='logo' />
         </div>
         
         <div 
