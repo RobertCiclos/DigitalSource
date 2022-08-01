@@ -32,13 +32,13 @@ const Footer = () => {
             lg:gap-[32px]'>
             <img
               style={isDesktop ?  styledesk : stylemobile}
-              src='../svg/Footer/SVG-Facebook.svg' alt='logo' />
+              src='../svg/Footer/SVG-Facebook.svg' alt='Icono-Facebook' />
             <img 
               style={isDesktop ?  styledesk : stylemobile}
-              src='../svg/Footer/SVG-Instagram.svg' alt='logo' />
+              src='../svg/Footer/SVG-Instagram.svg' alt='Icono-Facebook' />
             <img 
               style={isDesktop ?  styledesk : stylemobile}
-              src='../svg/Footer/SVG-Twitter.svg' alt='logo' />
+              src='../svg/Footer/SVG-Twitter.svg' alt='Icono-Facebook' />
           </div>
         </div>
         
