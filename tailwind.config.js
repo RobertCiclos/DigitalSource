@@ -15,7 +15,8 @@ module.exports = {
     extend: {
       screens: {
         'aux': '1250px',
-        'lgaux' : '1024px'
+        'lgaux' : '1024px',
+        'smaux' : '640',
       },
     },
   },

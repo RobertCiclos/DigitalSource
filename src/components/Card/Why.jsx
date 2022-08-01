@@ -5,25 +5,13 @@ import Preparacion from '../svg/why/Preparacion.jsx'
 import Productos from '../svg/why/Productos.jsx'
 
 const Why = (props) => {
-  
-    var icono = props.item
-    var svgUsado
-
-    if(icono ===1){
-      svgUsado = <Ahorra/>
-    }else if(icono ===2){
-      svgUsado= <Nuevas/>
-    }else if(icono ===3){
-      svgUsado= <Preparacion/>
-    }else if(icono===4){
-      svgUsado= <Productos/>
-    }
-  
     return (
         <div 
           className='w-[170px] h-[186px] mx-auto mt-[30px] shadow-xl
           lg:w-[245px] lg:h-[267px] lg:mt-[46px] '>
-          {svgUsado}
+          <img src={props.imagen} 
+            className="w-[71px] h-[71px] object-left
+            lg:w-[102px] lg:h-[102px]"/>
             <div>
               <h4 
                 className='h4 text-center text-[#1B1713] pl-[40px]
