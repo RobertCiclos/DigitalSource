@@ -7,7 +7,6 @@ import BtnBrownSuscribirme from '../components/buttons/BtnBrownSuscribirme'
 import CardRecetas from '../components/Card/CardRecetas'
 import BtnRedMenu from '../components/buttons/BtnRedMenu'
 
-
 const Home = () => {
   return (
   <div 
@@ -46,14 +45,18 @@ const Home = () => {
           className='text-[##1B1713] mb-[30px] lg:mb-[72px]'>
           Recetas de la semana
         </h2>
-        <div
-          className="grid relative mx-auto
-          grid-cols-2 pb-[34px] gap-x-[32px] gap-y-[40px]
-          lg:grid-cols-1 lg:pb-[64px] lg:flex lg:w-[12115px] lg:h-[470px]" >
-          <CardRecetas number="1" plato="./imagenes/recetas/ensalada1.png" nombre="Ensalada de papines con pesto de cilantro"/>
-          <CardRecetas className="absolute left-[315px] lg:top-[181px]" number="2" plato="./imagenes/recetas/ensalada2.png" nombre="Ensalada de papines con pesto de cilantro"/>
-          <CardRecetas className="absolute lg:left-[630px]"number="3" plato="./imagenes/recetas/ensalada3.png" nombre="Ensalada de papines con pesto de cilantro"/>
-          <CardRecetas className="absolute lg:left-[945px] lg:top-[181px]"number="4" plato="./imagenes/recetas/ensalada4.png" nombre="Ensalada de papines con pesto de cilantro"/>
+        <div   
+          className="grid mx-auto
+          grid-cols-2 mb-[30px] gap-x-[32px] gap-y-[25px]
+          lg:grid-cols-4 lg:mb-[64px] lg:gap-x-[45px] lg:w-[1215px] lg:h-[470px]" >
+          <div className="lg:grid lg:grid-rows-[181px_289px_165px]">
+            <CardRecetas className="" number="1" plato="./imagenes/recetas/ensalada1.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          </div>
+            <CardRecetas className="" number="2" plato="./imagenes/recetas/ensalada2.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          <div className="lg:grid lg:grid-rows-[181px_289px_165px]">
+            <CardRecetas className="" number="3" plato="./imagenes/recetas/ensalada3.png" nombre="Ensalada de papines con pesto de cilantro"/>
+          </div>
+            <CardRecetas className=""number="4" plato="./imagenes/recetas/ensalada4.png" nombre="Ensalada de papines con pesto de cilantro"/>
         </div>
         <BtnRedMenu className="insivible lg:visible"/>
       </div>
