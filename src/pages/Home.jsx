@@ -7,11 +7,12 @@ import BtnBrownSuscribirme from '../components/buttons/BtnBrownSuscribirme'
 import CardRecetas from '../components/Card/CardRecetas'
 import BtnRedMenu from '../components/buttons/BtnRedMenu'
 import CardComida from '../components/Card/CardComidad'
+import ProcesodeCompra1 from './ProcesodeCompra1'
 
 
 const Home = () => {
   return (
-  <div 
+  <div
     className=''>
     <section>
         <div 
