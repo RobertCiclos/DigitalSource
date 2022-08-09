@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <section>
     <div 
-      className='w-[414px] h-[76px] flex items-center shadow-2xl mx-auto px-[16px]
+      className='w-[414px] h-[76px] flex items-center shadow-lg mx-auto px-[16px]
       lg:px-[130px] lg:w-[1440px] lg:h-[80px]'>
       <navbar 
         className="grid grid-cols-2 items-center gap-[39px]
