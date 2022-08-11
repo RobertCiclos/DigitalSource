@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BtnGreenNo from '../components/buttons/BtnGreenNo'
 import BtnGreenSi from '../components/buttons/BtnGreenSi'
 import BtnYellowAmarillo from '../components/buttons/BtnYellowAmarillo'
@@ -22,8 +23,12 @@ const ProcesoCompra2_1 = (props) => {
                     className='grid grid-cols-2 mx-auto
                     gap-[26px] w-[314px]
                     lg:gap-[100px] lg:w-[690px]'>
-                    <BtnGreenNo className='text-[white] bg-[#7BB037]'/>
-                    <BtnGreenSi className='text-[#7BB037]'/>
+                    <Link to="/ProcesoCompra2-2">
+                      <BtnGreenNo/>
+                    </Link>
+                    <Link to="/ProcesoCompra2-1">
+                      <BtnGreenSi/>
+                    </Link>
                   </div>
               </div>
               <div
@@ -109,8 +114,12 @@ const ProcesoCompra2_1 = (props) => {
                 className='grid grid-cols-2 mx-auto
                 gap-[32px] mb-[40px] w-[352px]
                 lg:gap-[100px] lg:mb-[62px] lg:w-[690px]'>
-                <BtnYellowBlanco opcion='Anterior'/>
-                <BtnYellowAmarillo opcion='Siguiente'/>
+                <Link to="/ProcesodeCompra1">
+                  <BtnYellowBlanco opcion='Anterior'/>
+                </Link>
+                <Link to="/ProcesodeCompra3">
+                  <BtnYellowAmarillo opcion='Siguiente'/>
+                </Link>
               </div>
         </div>
     </div>
