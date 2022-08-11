@@ -39,10 +39,27 @@
   @apply text-[16px] font-[Poppins] font-bold text-[#1B1713]
 
 }
+.subtitulocompra {
+  @apply font-[Poppins] font-bold text-[#1B1713] text-center
+  text-[18px] mb-[19px]
+  lg:text-[36px] lg:mb-[43px]
 
 .titulocompra3{
   @apply font-bold text-[24px] font-[Poppins] text-[#1B1713]
   lg:text-[36px]
+}
+.classlabel {
+  @apply font-[Lato] font-normal
+  text-[16px] lg:text-[24px]
+
+}
+.classinput {
+  @apply border-[2px] rounded-[7px] border-[#1B1713] bg-[white]
+  font-[Lato] font-normal text-[#959595]
+  text-[16px] w-[310px] h-[48px] pl-[12.93px]
+  lg:text-[18px] lg:w-[400px] lg:h-[55px] lg:pl-[17px]
+
+}
 }
 
 .subcompra3{
