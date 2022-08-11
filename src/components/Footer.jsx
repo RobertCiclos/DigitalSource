@@ -15,7 +15,7 @@ const Footer = () => {
   }
 
   return (
-    <section 
+    <footer 
       className=''>
       <div>
         <div 
@@ -24,7 +24,6 @@ const Footer = () => {
           <img 
             className='mx-auto' src={isDesktop ? '../svg/Footer/SVG-G_LogoFooter.svg' : '../svg/Footer/SVG-M_LogoFooter.svg'} alt='logo' />
         </div>
-        
         <div 
           className='flex justify-center mb-[24px]
           lg:mb-[40px]'>
@@ -59,7 +58,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </section>
+    </footer>
   )
 }
 

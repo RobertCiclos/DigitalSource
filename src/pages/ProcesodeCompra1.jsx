@@ -1,8 +1,11 @@
 import react from "react";
+import { Link } from "react-router-dom";
 import CardProcesoCompra from "../components/Card/CardProcesoCompra";
 import CardSeccionbotella from "../components/Card/CardSeccionbotella";
 
 const ProcesodeCompra1 = () => {
+    const option = 2
+
     return (
         <section>
             <div 
@@ -180,8 +183,9 @@ const ProcesodeCompra1 = () => {
                             </div>
                     </div>
                 </div>
-                <div className="w-[240px] h-[48px] mx-auto mt-[-1265px]
-                lg:w-[188px] lg:h-[42px] lg:pb-[70px] lg:mt-[0px]">
+                <Link to="/ProcesoCompra2-2" 
+                    className="w-[240px] h-[48px] mx-auto mt-[-1265px] 
+                    lg:w-[188px] lg:h-[42px] lg:pb-[70px] lg:mt-[0px]">
                     <button 
                         className="w-[240px] h-[48px] bg-[#FFC107] rounded-lg mx-auto
                         lg:w-[188px] lg:h-[42px] lg:mt-[65px]">
@@ -190,7 +194,7 @@ const ProcesodeCompra1 = () => {
                             Siguiente
                         </h4>
                     </button>
-                </div>
+                </Link>
             </div>
         </section>
 
