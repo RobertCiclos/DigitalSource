@@ -47,7 +47,7 @@
   }
 
   .titulocompra3{
-    @apply font-bold text-[24px] font-[Poppins] text-[#1B1713]
+    @apply font-bold text-[20px] font-[Poppins] text-[#1B1713]
     lg:text-[36px]
   }
 
@@ -78,6 +78,18 @@
 
   .titulo2{
     @apply font-semibold text-[25px] font-[Poppins] text-[#1B1713]
+
+  }
+
+  .kitcompra{
+    @apply font-[Lato] font-normal text-[18px] text-[#1B1713]
+    lg:text-[24px] 
+
+  }
+
+  .numerocompra5{
+    @apply font-[Lato] font-normal text-[18px] text-[#1B1713]
+    lg:text-[24px] 
 
   }
 
