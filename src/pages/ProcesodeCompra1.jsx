@@ -1,5 +1,6 @@
 import react from "react";
 import { Link } from "react-router-dom";
+import Btnsiguiente from "../components/buttons/Btnsiguiente";
 import CardProcesoCompra from "../components/Card/CardProcesoCompra";
 import CardSeccionbotella from "../components/Card/CardSeccionbotella";
 
@@ -183,18 +184,15 @@ const ProcesodeCompra1 = () => {
                             </div>
                     </div>
                 </div>
-                <Link to="/ProcesoCompra2-2" 
-                    className="w-[240px] h-[48px] mx-auto mt-[-1265px] 
-                    lg:w-[188px] lg:h-[42px] lg:pb-[70px] lg:mt-[0px]">
-                    <button 
-                        className="w-[240px] h-[48px] bg-[#FFC107] rounded-lg mx-auto
-                        lg:w-[188px] lg:h-[42px] lg:mt-[65px]">
-                        <h4 
-                            className="text-center text-[20px] text-[white] font-[Poppins] font-bold">
-                            Siguiente
-                        </h4>
-                    </button>
-                </Link>
+                <div 
+                    className="w-[240px] h-[48px] mx-auto pb-[70px] mt-[-1260px] 
+                    lg:w-[295px] lg:h-[70px] lg:pb-[250px] lg:mt-0">
+                    <Link to="/ProcesoCompra2-2" 
+                        className="w-[240px] h-[48px] mx-auto mt-[-1265px] 
+                        lg:w-[188px] lg:h-[42px] lg:pb-[70px] lg:mt-[0px]">
+                        <Btnsiguiente/>
+                    </Link>
+                </div>
             </div>
         </section>
 
