@@ -26,6 +26,14 @@
     @apply font-[Poppins] font-semibold
     text-[18px] lg:text-[25px] ;
   }
+
+  h5 {
+    @apply font-[Lato] font-bold text-[18px]
+  }
+
+  h6 {
+    @apply font-[Lato] font-normal text-[16px]
+  }
 }
 
 @layer components {
@@ -47,7 +55,8 @@
   }
 
   .titulocompra3{
-    @apply font-bold text-[24px] font-[Poppins] text-[#1B1713]
+    @apply font-bold font-[Poppins] text-[#1B1713]
+    text-[24px] pt-[40px]
     lg:text-[36px]
   }
 
