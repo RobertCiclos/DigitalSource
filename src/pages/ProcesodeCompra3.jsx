@@ -1,10 +1,12 @@
 import react from "react";
-
+import { Link } from 'react-router-dom'
+import BtnYellowAmarillo from '../components/buttons/BtnYellowAmarillo'
+import BtnYellowBlanco from '../components/buttons/BtnYellowBlanco'
 const ProcesodeCompra3 = () => {
     return(
         <section>
             <div 
-                className="w-[350px] h-[500px] mt-[24px] rounded-lg border-[#FFFFFF] shadow-xl mx-auto 
+                className="w-[350px] h-[500px] mt-[24px] rounded-lg border-[#FFFFFF] shadow-xl mx-auto
                 lg:w-[1020px] lg:h-[545px] lg:mt-[54px]">
                 <h1 
                     className="titulocompra3 pt-[40px] text-center w-[310px]
@@ -88,6 +90,17 @@ const ProcesodeCompra3 = () => {
                         <li>Acompañamiento “mayonesa vegana”: $40</li>
                     </ul>
                 </div>
+            </div>
+            <div
+                className='grid grid-cols-2 mx-auto
+                gap-[32px] mb-[40px] w-[352px] mt-[50px] 
+                lg:gap-[100px] lg:mb-[122px] lg:w-[690px] lg:mt-[95px] '>
+                <Link to="/ProcesoCompra2-2">
+                    <BtnYellowBlanco opcion='Cancelar'/>
+                </Link>
+                <Link to="/ProcesoCompra4">
+                    <BtnYellowAmarillo opcion='Confirmar'/>
+                </Link>
             </div>
         </section>
      )

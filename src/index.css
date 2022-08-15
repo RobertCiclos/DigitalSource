@@ -90,6 +90,18 @@
 
   }
 
+  .kitcompra{
+    @apply font-[Lato] font-normal text-[18px] text-[#1B1713]
+    lg:text-[24px] 
+
+  }
+
+  .numerocompra5{
+    @apply font-[Lato] font-normal text-[18px] text-[#1B1713]
+    lg:text-[24px] 
+
+  }
+
 }
 
 @layer utilities {
