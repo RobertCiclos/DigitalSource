@@ -186,8 +186,8 @@ const Home = () => {
               className='w-[420px] h-[42px] grid grid-cols-2 px-[30px]
               lg:mt-[152px]'>
               <input 
-                className='w-[146px] h-[40px] ml-[-20px] bg-gray-50 border border-gray-300  rounded-lg px-4 py-2
-                lg:w-[289px] lg:h-[40px] lg:ml-[-60px]' 
+                className='w-[146px] h-[41px] ml-[-20px] bg-gray-50 border border-gray-300  rounded-lg px-4 py-2
+                lg:w-[289px] lg:h-[40px] lg:ml-[-60px] lg:placeholder:visible placeholder:invisible' 
                 placeholder='Escribe tu correo electronico'>
               </input>
               <div 
