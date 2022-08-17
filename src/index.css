@@ -103,11 +103,3 @@
   }
 
 }
-
-@layer utilities {
-
-  .parrafobase {
-      @apply text-[25px]
-  }
-
-}

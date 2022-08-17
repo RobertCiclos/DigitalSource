@@ -88,7 +88,7 @@ const ProcesoCompra4 = () => {
             <p>
               <label for="campontitular"
               className='classlabel'>
-              Nombre del títular de la tarjeta
+              Nombre del titular de la tarjeta
               </label> 
               <br/>
               <input type="text" name="titular" id="titular"
@@ -134,18 +134,22 @@ const ProcesoCompra4 = () => {
         </div>
         <form
           className='my-[27px] lg:my-[30px]'>
-          <input type='radio' name='selection' id='aceptar' value='aceptar'/>
-          <label for='aceptar'
-            className='font-[Lato] font-medium text-[18px] text-[#959595]'>
-            Acepto los términos y condiciones
+          <label className="inline-flex items-center">
+            <input type="radio" className="form-radio h-6 w-6" name="selection" value="aceptar"/>
+            <span 
+              className="font-[Lato] font-medium text-[18px] text-[#959595] ml-[10px] lg:ml-[16px]"> 
+              Acepto los términos y condiciones
+            </span>
           </label>
         </form>
         <div 
-          className='grid grid-cols-[131px_211px] gap-[27px] w-[369px] h-[60px] items-center'>
+          className='grid grid-cols-[131px_211px] gap-[25px] w-[369px] h-[60px] items-center'>
           <p className='font-[Lato] font-medium text-[16px] text-[#1B1713]'>
             Pago 100% seguro
           </p>
-          <img src='./svg/Procesos/tarjetas.png'/>
+          <img src='./svg/Procesos/tarjetas.png'
+            className='w-[180px] h-[54ipx] lg:w-[211px] lg:h-[60px]'  
+          />
         </div>
         <p
           className='font-[Lato] font-medium text-[18px] text-[#959595] mt-[21px]
