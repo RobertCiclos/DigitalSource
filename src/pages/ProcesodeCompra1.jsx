@@ -78,7 +78,8 @@ const ProcesodeCompra1 = () => {
                     <h1 
                         className="font-[Poppins] text-[#1B1713] font-bold text-[20px] text-center 
                         lg:text-[36px] ">
-                        ¿Se te antoja algo mas?</h1>
+                        ¿Se te antoja algo más?
+                    </h1>
                     <div 
                         className="grid mx-auto grid-cols-1
                         lg:grid-cols-4  lg:px-[50px]">
@@ -95,7 +96,7 @@ const ProcesodeCompra1 = () => {
                                     Aceite de sésame
                                 </h2>
                                 <ul className="list-disc mt-[13px] text-[16px] font-[Lato] font-semibold space-y-[11px] ml-[60px]">
-                                    <li>Composicion: 
+                                    <li>Composición: 
                                         <span 
                                             className="font-normal pl-[13px] text-[14px] font-[Lato]">
                                                 Vegetal</span>
@@ -110,7 +111,7 @@ const ProcesodeCompra1 = () => {
                                             className="font-normal pl-[31px] text-[14px] font-[Lato]">
                                             Premium</span>
                                     </li>
-                                    <li>Presentacion:
+                                    <li>Presentación:
                                         <span 
                                             className="font-normal pl-[13px] text-[14px] font-[Lato]">
                                             Botella</span>

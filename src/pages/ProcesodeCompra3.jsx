@@ -11,7 +11,7 @@ const ProcesodeCompra3 = () => {
                 <h1 
                     className="titulocompra3 pt-[40px] text-center w-[310px]
                     lg:pt-[34px] lg:w-[465px]">
-                    Confirmacion de compra
+                    Confirmación de compra
                 </h1>
                 <div 
                     className="grid grid-cols-[140px_0px_100px]
@@ -49,13 +49,13 @@ const ProcesodeCompra3 = () => {
                         <p 
                             className="text-[15px] font-light font-[Lato] visible
                             lg:invisible">
-                            Envió a la provincia de 
+                            Envio a la provincia de 
                         </p>
                     </h3>
                     <p 
                         className="parrafocompra3 invisible
                         lg:pt-[65px] lg:pl-[70px] lg:visible">
-                        Envió a la provincia de
+                        Envio a la provincia de
                     </p>
                     <p 
                         className="numerocompra3 pl-[35px] pt-[8px]

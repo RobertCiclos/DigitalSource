@@ -67,7 +67,7 @@ const ProcesoCompra2_1 = (props) => {
                   <p>
                     <label for="campotelefono"
                       className='classlabel'>
-                      Telefono
+                      Teléfono
                     </label> 
                     <br/>
                     <input type="tel" name="telefono" id="telefono"

@@ -14,10 +14,10 @@ const CardRecetas = (props) => {
         </p>
         <img src={props.plato}
             className="absolute top-[30px] 
-            left-[31px] h-[110px] w-[110px]
+            left-[45px] h-[110px] w-[110px]
             lg:left-[53px] lg:h-[172px] lg:w-[172px]"
         />
-        <div className='mt-[158px] lg:mt-[214px]'>
+        <div className='absolute top-[158px] lg:top-[214px]'>
             <p
                 className='font-[Poppins] font-semibold text-[#1B1713] flex text-center mx-auto
                 text-[16px] w-[172px] pb-[2px]

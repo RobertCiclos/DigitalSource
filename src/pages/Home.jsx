@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import BtnRedEmpezar from '../components/buttons/BtnRedEmpezar'
 import Productos from '../components/svg/why/Productos'
 import Why from '../components/Card/Why'
@@ -33,7 +34,9 @@ const Home = () => {
             className="absolute top-[159px] right-[112.5px]
             md:top-[245px] md:right-[289.5px]
             lg:top-[387px] lg:right-[550px]">
-            <BtnRedEmpezar />
+            <Link to="/ProcesodeCompra1">
+              <BtnRedEmpezar/>
+            </Link>
           </div>
         </div>
     </section>
@@ -52,15 +55,15 @@ const Home = () => {
           grid-cols-2 mb-[30px] gap-x-[32px] gap-y-[25px]
           lg:grid-cols-4 lg:mb-[64px] lg:gap-x-[45px] lg:w-[1215px] lg:h-[470px]" >
           <div className="lg:grid lg:grid-rows-[181px_289px_165px]">
-            <CardRecetas className="" number="1" plato="./imagenes/recetas/ensalada1.png" nombre="Ensalada de papines con pesto de cilantro"/>
+            <CardRecetas number="1" plato="./imagenes/recetas/ensalada1.png" nombre="Ensalada de papines con pesto de cilantro"/>
           </div>
-            <CardRecetas className="" number="2" plato="./imagenes/recetas/ensalada2.png" nombre="Ensalada de papines con pesto de cilantro"/>
+            <CardRecetas number="2" plato="./imagenes/recetas/ensalada2.png" nombre="Ensalada de papines con pesto de cilantro"/>
           <div className="lg:grid lg:grid-rows-[181px_289px_165px]">
-            <CardRecetas className="" number="3" plato="./imagenes/recetas/ensalada3.png" nombre="Ensalada de papines con pesto de cilantro"/>
+            <CardRecetas number="3" plato="./imagenes/recetas/ensalada3.png" nombre="Ensalada de papines con pesto de cilantro"/>
           </div>
-            <CardRecetas className=""number="4" plato="./imagenes/recetas/ensalada4.png" nombre="Ensalada de papines con pesto de cilantro"/>
+            <CardRecetas number="4" plato="./imagenes/recetas/ensalada4.png" nombre="Ensalada de papines con pesto de cilantro"/>
         </div>
-        <BtnRedMenu className="insivible lg:visible"/>
+        <BtnRedMenu/>
       </div>
     </section>
   
@@ -108,7 +111,7 @@ const Home = () => {
             <h3 
               className='h3 text-center pb-[31px]
               aux:pl-[70px] aux:text-left aux:pb-0'>
-              ¿Como llegara tu pedido?
+              ¿Cómo llegara tu pedido?
             </h3>
             <div 
               className=' pb-[10px] space-y-[10px] 
@@ -170,7 +173,7 @@ const Home = () => {
             className='grid grid-cols-1
             lg:grid-cols-2'>
             <div 
-              className='w-[368px] h-[45px] mt-[20px] 
+              className='w-[368px] h-[45px] mt-[20px] items-center 
               lg:w-[518px] lg:h-[106px] lg:mt-[75px] lg:text-left '>
               <h4 
                 className='h4'>
@@ -178,7 +181,7 @@ const Home = () => {
               </h4>
               <p 
                 className='text-[14px] font-[Lato] text-[#1B1713] pt-[4px]
-                lg:text-[18px] lg:pt-[52px]'>
+                lg:text-[18px] lg:pt-[48px]'>
                 Suscríbete y recibirás cada semana...
               </p>
             </div>
